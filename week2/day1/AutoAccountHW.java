@@ -14,6 +14,7 @@ public class AutoAccountHW {
 		driver.findElement(By.id("password")).sendKeys("crmsfa");
 		driver.findElement(By.className("decorativeSubmit")).click();
 		driver.findElement(By.partialLinkText("CRM")).click();
+		driver.findElement(By.linkText("Accounts")).click();	
 		driver.findElement(By.linkText("Create Account")).click();
 		driver.findElement(By.id("accountName")).sendKeys("SeleniumAutomation1234");
 		driver.findElement(By.name("description")).sendKeys("Selenium Automation Tester");
