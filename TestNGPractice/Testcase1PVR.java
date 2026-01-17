@@ -83,7 +83,7 @@ public class Testcase1PVR {
 		System.out.println(driver.getTitle());
 		
 		//18) Close Browser
-		driver.close();
+		//driver.close();
 	}
 
 }
